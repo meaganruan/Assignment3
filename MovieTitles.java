@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.*;
 
 public class MovieTitles {
-
     public static void main(String[] args) throws IOException {
         //store each file path into an array list
         File movieFile = new File("src/movies.csv");
@@ -32,7 +31,9 @@ public class MovieTitles {
                 reader.close();
             }
         }
-        System.out.println(movies);                      
-
+        System.out.println(movies); 
+        for(int j=0; j<movies.size(); j++){
+            //something with movie node
+        }
     }
 }

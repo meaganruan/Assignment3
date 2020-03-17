@@ -7,13 +7,14 @@ public class Movie {
     Movie leftChild;
     Movie rightChild;
     //constructor for the Movie class
-
     public Movie(String t, int ry) {
         title = t;
         releaseYear = ry;
 
     }
-    //getter and setter methods for the private fields.
+    
+    
+    //getter and setter methods for the fields.
 
     public String getTitle() {
         //only takes the title from the beginning of the String to the empty space before the parenthesis of the year
