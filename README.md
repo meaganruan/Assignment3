@@ -35,7 +35,9 @@ Created getter and setter methods for the first and second children as well.
 MovieBST class:
 Created a private Movie object for the root of the tree.
 Created the subSet method to filter out movies.
-Created an addMovieNode method to add movies into the tree.
+Created an addMovieNode method to add movies into the tree. 
+  The addMovieNode method created a new Movie node and then checks if there is already a parent in the tree.
+  If the root does not have a node, it will create a new node. If the root does have a Node, it will be considered the first node.
 
 
 
