@@ -24,6 +24,8 @@ Two private String and Int variables. String is for the movie title, while Int i
 Two Movie objects for the left and right children of the Binary Search Tree (BST).
 Created a constructor for the two private fields.
 Created getter and setter methods for all the fields.
-For the String getter method, I took the substring of the whole title String (includes release year).
-For the Int getter method, I took the substring of the numbers in the title String (removes parentheses).
+For the String getter method, I returned the substring of the whole title String (includes release year).
+For the Int getter method, I returned the substring of the numbers in the title String (removes parentheses) and parsed it into an Int.
+Created getter and setter methods for the first and second children as well.
+
 
