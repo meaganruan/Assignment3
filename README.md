@@ -5,6 +5,7 @@ Importing csv file:
 Downloaded the movies.csv file from MovieLens and imported the file to the project file to access it.
 
 
+
 Reading in files:
 
 Created a MovieTitles class as the assignment main class and to read the csv files. 
@@ -14,6 +15,7 @@ Used BufferedReader and FileReader to read in the movies.csv file.
 I only took the Title column of the csv file and stored it in an array to transfer it to the ArrayList outside of the while loop (when reading in the file).
 I also removed the "title" (column name) from the array so it would not be in the ArrayList.
 Closed the Reader.
+
 
 
 Movie Node:
@@ -27,5 +29,11 @@ Created getter and setter methods for all the fields.
 For the String getter method, I returned the substring of the whole title String (includes release year).
 For the Int getter method, I returned the substring of the numbers in the title String (removes parentheses) and parsed it into an Int.
 Created getter and setter methods for the first and second children as well.
+
+
+
+MovieBST class:
+Created a private Movie object for the root of the tree.
+Created an addMovieNode method to add movies into the tree.
 
 
