@@ -22,7 +22,7 @@ Movie Node:
 
 I created a Movie class as my node.
 It consisted of 4 fields.
-Two private String and Int variables. String is for the movie title, while Int is for the Release Year.
+Two String and Int variables. String is for the movie title, while Int is for the Release Year.
 Two Movie objects for the left and right children of the Binary Search Tree (BST).
 Created a constructor for the two private fields.
 Created getter and setter methods for all the fields.
@@ -34,6 +34,8 @@ Created getter and setter methods for the first and second children as well.
 
 MovieBST class:
 Created a private Movie object for the root of the tree.
+Created the subSet method to filter out movies.
 Created an addMovieNode method to add movies into the tree.
+
 
 
