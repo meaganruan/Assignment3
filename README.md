@@ -1,10 +1,12 @@
 # Assignment 3 : Movie Titles
 
 Importing csv file:
+
 Downloaded the movies.csv file from MovieLens and imported the file to the project file to access it.
 
 
 Reading in files:
+
 Created a MovieTitles class as the assignment main class and to read the csv files. 
 Imported java.util.* for Lists, and imported java.io.* for reading in files.
 Created an ArrayList to store movie data.
@@ -15,8 +17,13 @@ Closed the Reader.
 
 
 Movie Node:
+
 I created a Movie class as my node.
 It consisted of 4 fields.
 Two private String and Int variables. String is for the movie title, while Int is for the Release Year.
 Two Movie objects for the left and right children of the Binary Search Tree (BST).
+Created a constructor for the two private fields.
+Created getter and setter methods for all the fields.
+For the String getter method, I took the substring of the whole title String (includes release year).
+For the Int getter method, I took the substring of the numbers in the title String (removes parentheses).
 
