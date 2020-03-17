@@ -6,6 +6,7 @@ Downloaded the movies.csv file from MovieLens and imported the file to the proje
 
 
 
+
 Reading in files:
 
 Created a MovieTitles class as the assignment main class and to read the csv files. 
