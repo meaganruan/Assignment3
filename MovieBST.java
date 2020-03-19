@@ -1,9 +1,11 @@
 package cisc3130a3;
 
 public class MovieBST {
-
+    
+    //created the movie object for the root of the tree
     private Movie root;
-
+    
+    //create subset method
     public void subSet(String start, String end) {
         // Selects movie titles that fall alphabetically between start and end.
         if (start.charAt(0) < end.charAt(0)) {
@@ -53,7 +55,7 @@ public class MovieBST {
                         parent.leftChild = newNode;
                         return;
                     }
-                } else {
+                } else { //right child
                     first = first.rightChild;
 
                     if (first == null) {
